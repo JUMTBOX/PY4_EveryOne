@@ -1,6 +1,5 @@
 print("hello from a file")
 
-
 x = 2
 x = x + 2
 print(x)
