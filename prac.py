@@ -66,8 +66,11 @@
 # print(hp1, hp2, hp3, sep="-")
 
 
-a = 77
-b = "자전거"
-c = 3.3737737
-d = 90
-print("%d,%s,%.2f,%d%%,%6s,%5d," % (a, b, c, d, b, a))
+# a = 77
+# b = "자전거"
+# c = 3.3737737
+# d = 90
+# print("%d,%s,%.2f,%d%%,%6s,%5d," % (a, b, c, d, b, a))
+
+str = "my name is python"
+print(str.find("n"))
