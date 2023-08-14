@@ -17,4 +17,8 @@ while True:
         break
     else:
         scoreArr.append(score)
-print("%s" % scoreArr)
+sum = 0
+for score in scoreArr:
+    sum = sum + score
+avg = sum / len(scoreArr)
+print("합계 : %d, 평균: %.2f" % (sum, avg))
