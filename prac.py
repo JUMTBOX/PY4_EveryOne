@@ -27,9 +27,47 @@
 # c = b // a
 # print(c)
 
-height = 170
-weight = 64
+# height = 170
+# weight = 64
 
-bmi = weight / (height**2)
+# bmi = weight / (height**2)
 
-print(bmi)
+# print(bmi)
+
+# word = "안 녕 !"
+# print(word[1:4])
+
+
+# date = "20191025"
+# year = date[0:4]
+# month = date[4:6]
+# day = date[6:]
+# date2 = year + "-" + month + "-" + day
+
+# print(date2)
+
+# msg = "안녕하세요!"
+# msgLength = len(msg)
+
+# print("문자열의 길이:%d" % msgLength)
+
+
+# greeting = input("인사말을 입력하세요::")
+# a = input("첫번째 정수를 입력하세요:")
+# b = input("두번째 정수를 입력하세요")
+# c = int(a) + int(b)
+
+# print(c)
+
+# hp1 = "010"
+# hp2 = "1234"
+# hp3 = "5678"
+
+# print(hp1, hp2, hp3, sep="-")
+
+
+a = 77
+b = "자전거"
+c = 3.3737737
+d = 90
+print("%d,%s,%.2f,%d%%,%6s,%5d," % (a, b, c, d, b, a))
