@@ -72,5 +72,29 @@
 # d = 90
 # print("%d,%s,%.2f,%d%%,%6s,%5d," % (a, b, c, d, b, a))
 
-str = "my name is python"
-print(str.find("n"))
+# str = "my name is python"
+# print(str.find("n"))
+
+
+# 문자열 자르기 .split(c)
+
+# str1 = "apple"
+# print(str1.split("l"))
+
+# 리스트(배열) 요소를 문자열로 합치기 .join()
+
+# string2 = ["apple", "mango"]
+# print("&".join(string2))
+
+color = [
+    "red",
+    "green",
+    "blue",
+]
+
+for col in color:
+    print("나는 %s색을 가장 좋아합니다." % col)
+
+list = [37, 888, -273, "kim", "hwang", 66.77]
+
+print(list[2:4])
