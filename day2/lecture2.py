@@ -45,11 +45,35 @@
 # inputNum()
 
 
-def oddEven(n):
-    if n % 2 == 0:
-        print("%d --> 짝수입니다." % n)
-    else:
-        print("%d --> 홀수입니다." % n)
+# def oddEven(n):
+#     if n % 2 == 0:
+#         print("%d --> 짝수입니다." % n)
+#     else:
+#         print("%d --> 홀수입니다." % n)
 
 
-oddEven(3)
+# oddEven(3)
+
+
+# 인자를 여러개 받을 때
+# def argFunc(*args):
+#     print(args)
+#     for t in args:
+#         print(list(t))
+
+
+# argFunc("yang")
+
+
+# 중첩 함수
+
+
+def deps1(num1):
+    def deps2(num2):
+        print(num2)
+
+    print("in function")
+    deps2(num1 + 100)
+
+
+deps1(50)
