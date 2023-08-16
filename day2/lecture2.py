@@ -68,12 +68,22 @@
 # 중첩 함수
 
 
-def deps1(num1):
-    def deps2(num2):
-        print(num2)
+# def deps1(num1):
+#     def deps2(num2):
+#         print(num2)
 
-    print("in function")
-    deps2(num1 + 100)
+#     print("in function")
+#     deps2(num1 + 100)
 
 
-deps1(50)
+# deps1(50)
+
+
+# def sum(start, end):
+#     hap = 0
+#     for i in range(start, end + 1):
+#         hap += i
+#     print("%d ~ %d의 정수의 합계: %d" % (start, end, hap))
+
+
+# sum(1, 100)

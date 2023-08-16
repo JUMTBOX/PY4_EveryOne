@@ -47,6 +47,6 @@
 
 # print("-" * 30)
 
-user = {"name": "yang", "age": 28}
-del user["age"]
-print(user)
+# user = {"name": "yang", "age": 28}
+# del user["age"]
+# print(user)
