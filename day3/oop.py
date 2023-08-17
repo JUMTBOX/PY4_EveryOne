@@ -25,3 +25,21 @@ car1.model = "벤츠 "
 car1.drive()
 car1.speedUp(80)
 car1.speedDown(20)
+
+
+class Fruit:
+    name = "사과"
+    color = "빨간색"
+
+    def taste(self):
+        print("새콤하다")
+
+    def vitamin(self):
+        print("비타민 c가 풍부하다.")
+
+
+apple = Fruit()
+print("과일명: %s" % apple.name)
+print("색상: %s" % apple.color)
+apple.taste()
+apple.vitamin()
