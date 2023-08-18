@@ -13,7 +13,7 @@
 
 # -----------------------------------------------------------------
 import numpy as np
-from pandas import DataFrame
+from pandas import Series, DataFrame
 
 # myData = np.arange(9).reshape(3, 3)
 
@@ -23,9 +23,18 @@ from pandas import DataFrame
 
 # -----------------------------------------------------------------
 
-sdata = {"지역": ["용산구", "마포구"], "연도": [2019, 2020]}
-sframe = DataFrame(sdata)
+# sdata = {"지역": ["용산구", "마포구"], "연도": [2019, 2020]}
+# sframe = DataFrame(sdata)
 
-print(sframe)
+# print(sframe)
 
 # -----------------------------------------------------------------
+
+# 산술 연산과 데이터 정렬
+
+myIndex = ["강호연", "유제준", "신동진"]
+myList = [30, 40, 50]
+myCol = ["서울", "부산", "경주"]
+
+mySeries = Series(myList, index=myIndex)
+print(mySeries)
