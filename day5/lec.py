@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-f = open("temp.csv", "r", encoding="cp949")
+f = open("seoul.csv", "r", encoding="cp949")
 data = csv.reader(f)
 
 header = next(data)
@@ -13,3 +13,5 @@ for row in data:
         m = int(row[2].split("-")[1]) - 1
         month[m].append(float(row[4]))
 plt.boxplot(month)
+plt.show()
+# --------------------------------------------------
