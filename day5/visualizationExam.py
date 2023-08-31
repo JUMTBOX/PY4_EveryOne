@@ -36,9 +36,9 @@ mysize = len(mygrouping.groups)
 
 
 df.plot(kind="barh", rot=0)
-# df.plot(kind='barh', rot=0, alpha=0.7, legend=True, stacked=True)
+
 plt.title(str(mysize) + "개 매장 집계 데이터")
-# plt.show()
+
 filename = "visualizationExam_01.png"
 plt.savefig(filename)
 print(filename + " 파일 저장됨")
